@@ -9,12 +9,12 @@ const textBlocks = document.querySelectorAll('.text-block');
 // Frame Paths (Assuming we use 1 to 150)
 const getFramePath = (index) => {
   const paddedIndex = index.toString().padStart(4, '0');
-  return `frames/frame_${paddedIndex}.webp`;
+  return `frames/frame_${paddedIndex}.jpg`;
 };
 
 // Canvas Setup
-canvas.width = 720;
-canvas.height = 1280;
+canvas.width = 1280;
+canvas.height = 2274;
 
 let currentFrame = -1;
 let loadedFrames = 0;
