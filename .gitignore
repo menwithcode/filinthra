@@ -1,0 +1,6 @@
+*.py
+*.pyc
+__pycache__/
+first_frame.jpg
+loading_screenshot.png
+loading_screenshot_0s.png
